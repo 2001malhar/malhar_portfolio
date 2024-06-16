@@ -1,6 +1,7 @@
 // @flow strict
 
 import * as React from 'react';
+import Link from 'next/link';
 
 function ProjectCard({ project }) {
 
@@ -36,7 +37,7 @@ function ProjectCard({ project }) {
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className=" text-white">tools:</span>
+            <span className=" text-white">Technologies:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
               project.tools.map((tag, i) => (
@@ -51,15 +52,17 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"],"}</span>
           </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
-            <span className="text-gray-400">,</span>
-          </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
+          </div>
+          <div className="ml-4 lg:ml-8 mr-2">
+          <Link target="_blank" href={project.code}>
+          <button className="bg-gradient-to-r from-pink-500 to-violet-600 px-2 py-1 text-xs text-white rounded-md">
+          code
+        </button>
+          </Link>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
