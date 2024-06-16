@@ -7,7 +7,7 @@ export const projectsData = [
     {
         id: 1,
         name: 'Developer Oasis',
-        description: "",
+        description: "A high-performance full-stack Q&A platform using Node.js, React, and MongoDB with real-time updates, comprehensive security measures, and efficient Docker-based deployment automation",
         tools: ['Express', 'MongoDB', 'React', 'NodeJs'],
         // role: 'Backend Developer',
         code: 'https://github.com/2001malhar/developer_oasis',
@@ -17,7 +17,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'Stock Portfolio Management Application',
-        //description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
+        description: 'A sophisticated Portfolio Management System with MVC architecture, real-time data integration, robust stock analysis features, and an intuitive GUI for enhanced investment decision-making',
         tools: ['Java', 'MVC Architecture', 'Java Spring'],
         // role: '',
         code: 'https://github.com/2001malhar/Portfolio_Management_Application',
@@ -27,7 +27,7 @@ export const projectsData = [
     {
         id: 3,
         name: 'Book Store Management App',
-        //description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
+        description:  ' A scalable C++ bookstore management application with efficient data handling, advanced algorithms, and robust memory management for optimal performance and stability',
         tools: ['C++'],
         code: 'https://github.com/2001malhar/book_store_management',
         // role: 'Full Stack Developer',
@@ -37,11 +37,11 @@ export const projectsData = [
     {
         id: 4,
         name: 'Trade Analysis',
-        // description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
+        description: "A dynamic trading data notebook ensuring integrity, advanced features, insightful analysis, key metric visualization, and automated extraction for detailed reporting",
         tools: ['Python','Pandas','Numpy','Scikit Learn', 'Matplotlib'],
         code: 'https://github.com/2001malhar/trade-analysis',
         demo: '',
-        image: ayla,
+        // image: ayla,
         // role: 'Full Stack Developer',
     }
 ];

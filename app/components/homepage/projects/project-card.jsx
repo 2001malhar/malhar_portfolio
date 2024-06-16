@@ -60,7 +60,7 @@ function ProjectCard({ project }) {
           <div className="ml-4 lg:ml-8 mr-2">
           <Link target="_blank" href={project.code}>
           <button className="bg-gradient-to-r from-pink-500 to-violet-600 px-2 py-1 text-xs text-white rounded-md">
-          code
+          Github
         </button>
           </Link>
           </div>

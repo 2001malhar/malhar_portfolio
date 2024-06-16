@@ -3,13 +3,13 @@ export const experiences = [
     id: 1,
     title: 'Software Engineer Intern',
     company: "Novus Ark Solutions",
-    duration: "(Jun 2024 - Oct 2024)"
+    duration: "(Jun 2023 - Oct 2023)"
   },
   {
     id: 2,
     title: "Software Engineer Intern",
     company: "Confidosoft Solutions Pvt. Ltd.",
-    duration: "(Jan 2024 - May - 2024)"
+    duration: "(Jan 2023 - May - 2023)"
   },
   // {
   //   id: 3,
